@@ -1,0 +1,44 @@
+{
+  "api": {
+    "getSquare": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifyserverlessfun6d11ba73"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifyserverlessfun6d11ba73": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifyserverlessfun6d11ba73_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyserverlessfun6d11ba73"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifyserverlessfun6d11ba73_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifyserverlessfun6d11ba73"
+        }
+      ]
+    }
+  }
+}

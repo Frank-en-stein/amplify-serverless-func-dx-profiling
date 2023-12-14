@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/getSquare/{num}": {
+      "name": "/getSquare/{num}",
+      "lambdaFunction": "amplifyserverlessfun6d11ba73",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
